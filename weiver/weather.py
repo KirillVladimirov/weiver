@@ -1,11 +1,13 @@
-from weiver.utils.gps import get_gps_coordinates
+from weiver.utils.gps import get_coordinates
 from weiver.api_service import get_weather
 from weiver.utils.weather_formater import format_weather
 
 
 def main():
-    coordinates = get_gps_coordinates()
+    coordinates = get_coordinates()
+    print(coordinates)
     weather = get_weather(coordinates)
+    print(weather)
     print(format_weather(weather))
 
 

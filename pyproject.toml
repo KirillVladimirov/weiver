@@ -10,6 +10,11 @@ pytest = "^7.1.2"
 serial = "^0.0.97"
 gps = "^3.19"
 requests = "^2.27.1"
+loguru = "^0.6.0"
+mypy = "^0.961"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pylint = "^2.14.1"
 
 [tool.poetry.dev-dependencies]
 
