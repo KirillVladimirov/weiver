@@ -5,9 +5,7 @@ from weiver.utils.weather_formater import format_weather
 
 def main():
     coordinates = get_coordinates()
-    print(coordinates)
     weather = get_weather(coordinates)
-    print(weather)
     print(format_weather(weather))
 
 
